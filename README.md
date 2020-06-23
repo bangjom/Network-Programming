@@ -2,7 +2,7 @@
 
  
 SSL ->
-for server and client :
+for server and client :<br>
 1)"자기경로"\pingpong\bin > mkdir .keystore<br>
 2) keytool -genkey -alias Server -keyalg RSA -v -storetype JKS -keystore .keystore\ServerKey<br>
 3) 저장소 : 123456 / 키 : 123456<br>
